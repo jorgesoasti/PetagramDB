@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.jorgesoasti.petagramfragments">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -15,6 +17,16 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".ActivityContactos" />
+        <activity android:name=".MascotasFavoritasActivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme2">
+            <!-- Soporte para versiones iguales o anteriores a Android 4.0 -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity">
+            </meta-data>
         </activity>
     </application>
 
