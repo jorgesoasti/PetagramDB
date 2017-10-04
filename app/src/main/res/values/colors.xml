@@ -6,4 +6,6 @@
     <color name="colorLightPrimaryColor">#FFCCBC</color>
     <color name="colorTextPrimaryColor">#FFFFFF</color>
     <color name="colorBlanco">#FFFFFF</color>
+    <color name="colorRojizo">#DF4F4F</color>
+    <color name="colorRojizoOscuro">#881515</color>
 </resources>

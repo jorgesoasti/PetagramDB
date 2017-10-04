@@ -8,7 +8,7 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingBottom="16dp"
-    tools:context="com.jorgesoasti.petagramfragments.ActivityContactos">
+    tools:context="com.jorgesoasti.petagramfragments.Activities.ActivityContactos">
 
     <TextView
         android:layout_width="match_parent"
@@ -17,7 +17,57 @@
         android:text="@string/titulo_contacto"
         android:textSize="20sp"
         android:textColor="@color/cardview_dark_background"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/autenticacion"
+        android:textSize="20sp"
+        android:textColor="@color/colorRojizoOscuro"
+        android:layout_marginBottom="10dp"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/edtUsuario"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="@string/usuario"
+            android:textColorHint="@color/colorRojizo"
+            android:textColor="@color/colorRojizo"
+            android:layout_marginBottom="10dp">
+
+        </android.support.design.widget.TextInputEditText>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/edtContrasena"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="@string/contrasena"
+            android:layout_marginBottom="10dp">
+
+        </android.support.design.widget.TextInputEditText>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_mensaje"
+        android:textSize="20sp"
+        android:textColor="@color/colorRojizoOscuro"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"/>
 
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"

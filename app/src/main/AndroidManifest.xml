@@ -11,23 +11,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ActivityContactos" />
-        <activity android:name=".MascotasFavoritasActivity"
-            android:parentActivityName=".MainActivity"
+        <activity android:name=".Activities.ActivityContactos" />
+        <activity
+            android:name=".Activities.MascotasFavoritasActivity"
+            android:parentActivityName=".Activities.MainActivity"
             android:theme="@style/AppTheme2">
+
             <!-- Soporte para versiones iguales o anteriores a Android 4.0 -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity">
-            </meta-data>
+                android:value=".Activities.MainActivity"></meta-data>
         </activity>
+        <activity android:name=".Activities.ActivityBioDesarrollador"></activity>
     </application>
 
 </manifest>
