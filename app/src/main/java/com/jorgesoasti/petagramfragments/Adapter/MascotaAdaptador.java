@@ -10,7 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.jorgesoasti.petagramfragments.Poyo.Mascota;
+import com.jorgesoasti.petagramfragments.Pojo.Mascota;
 import com.jorgesoasti.petagramfragments.R;
 
 import java.util.ArrayList;

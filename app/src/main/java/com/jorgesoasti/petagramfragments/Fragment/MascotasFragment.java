@@ -10,7 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.jorgesoasti.petagramfragments.Adapter.MascotaAdaptador;
-import com.jorgesoasti.petagramfragments.Poyo.Mascota;
+import com.jorgesoasti.petagramfragments.Pojo.Mascota;
 import com.jorgesoasti.petagramfragments.R;
 
 import java.util.ArrayList;
